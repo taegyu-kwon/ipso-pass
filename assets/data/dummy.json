@@ -1,0 +1,120 @@
+{
+  "reservists": [
+    { "id": "r1", "name": "최준서", "yearLabel": "2년차 · 동원미참훈련", "birth": "2001.03.14", "unit": "광진구 예비군대대", "address": "서울특별시 광진구", "phone": "010-0000-0001", "serviceNo": "21-00000001", "specialty": "보병", "room": "1생활관", "team": "1조", "entered": true, "equipmentReturned": ["eq1", "eq2", "eq3", "eq4", "eq5"] },
+    { "id": "r2", "name": "권태규", "yearLabel": "1년차 · 동원훈련", "birth": "2002.06.22", "unit": "노원구 예비군대대", "address": "서울특별시 노원구", "phone": "010-0000-0002", "serviceNo": "22-00000002", "specialty": "통신", "room": "1생활관", "team": "2조", "entered": true, "equipmentReturned": ["eq1", "eq3", "eq4", "eq5"] },
+    { "id": "r3", "name": "김민수", "yearLabel": "5년차 · 기본훈련", "birth": "1998.09.08", "unit": "안산시 단원구 예비군대대", "address": "경기도 안산시 단원구", "phone": "010-0000-0003", "serviceNo": "18-00000003", "specialty": "수송", "room": "1생활관", "team": "3조", "entered": true, "equipmentReturned": null },
+    { "id": "r4", "name": "김도현", "yearLabel": "3년차 · 동원미참훈련", "birth": "2000.04.17", "unit": "부산진구 예비군대대", "address": "부산광역시 부산진구", "phone": "010-0000-0004", "serviceNo": "20-00000004", "specialty": "보급", "room": "2생활관", "team": "1조", "entered": true, "equipmentReturned": ["eq1", "eq2", "eq4"] },
+    { "id": "r5", "name": "김민준", "yearLabel": "4년차 · 동원미참훈련", "birth": "1999.11.05", "unit": "유성구 예비군대대", "address": "대전광역시 유성구", "phone": "010-0000-0005", "serviceNo": "19-00000005", "specialty": "공병", "room": "2생활관", "team": "2조", "entered": true, "equipmentReturned": ["eq1", "eq2", "eq3", "eq4", "eq5"] }
+  ],
+  "trainings": [
+    { "id": "t1", "reservistId": "r1", "siteId": "S081", "title": "2년차 동원미참훈련", "kind": "동원미참훈련", "dateLabel": "11.16 (월)", "start": "09:00", "end": "18:00", "deadline": "08:50", "siteName": "금곡과학화예비군훈련장(1훈련장)", "siteAddress": "경기도 남양주시 일패동 (이패동) 156 금곡예비군훈련대(1훈련장)", "unitPhone": "02-000-0000" },
+    { "id": "t2", "reservistId": "r2", "siteId": "S086", "title": "1년차 동원훈련", "kind": "동원훈련", "dateLabel": "11.10 (화)", "start": "09:00", "end": "17:00", "deadline": "08:50", "siteName": "별내 동원훈련장(55동원지원단)", "siteAddress": "경기도 남양주시 별내면 (별내동) 21", "unitPhone": "02-000-0000" },
+    { "id": "t3", "reservistId": "r3", "siteId": "S016", "title": "5년차 기본훈련", "kind": "기본훈련", "dateLabel": "11.12 (목)", "start": "09:00", "end": "18:00", "deadline": "08:50", "siteName": "단원 과학화예비군훈련장", "siteAddress": "경기도 안산시 단원구 선부동 39", "unitPhone": "02-000-0000" },
+    { "id": "t4", "reservistId": "r4", "siteId": "S078", "title": "3년차 동원미참훈련", "kind": "동원미참훈련", "dateLabel": "12.07 (월)", "start": "09:00", "end": "18:00", "deadline": "08:50", "siteName": "부산과학화예비군훈련장(2훈련장)", "siteAddress": "부산광역시 해운대구 송정동 43", "unitPhone": "02-000-0000" },
+    { "id": "t5", "reservistId": "r5", "siteId": "S076", "title": "4년차 동원미참훈련", "kind": "동원미참훈련", "dateLabel": "12.14 (월)", "start": "09:00", "end": "18:00", "deadline": "08:50", "siteName": "유성구 예비군훈련장", "siteAddress": "대전광역시 유성구 하기동 84", "unitPhone": "02-000-0000" }
+  ],
+  "roadmaps": [
+    { "reservistId": "r1", "endDate": "2032.12.31", "thisYear": 2026, "years": [
+      { "year": 2025, "label": "1년차", "kind": "동원", "count": 1 }, { "year": 2026, "label": "2년차", "kind": "동원", "count": 1 },
+      { "year": 2027, "label": "3년차", "kind": "동원", "count": 1 }, { "year": 2028, "label": "4년차", "kind": "동원", "count": 1 },
+      { "year": 2029, "label": "5년차", "kind": "기본", "count": 3 }, { "year": 2030, "label": "6년차", "kind": "기본", "count": 3 },
+      { "year": 2031, "label": "7년차", "kind": "점검", "count": 0 }, { "year": 2032, "label": "8년차", "kind": "점검", "count": 0 } ] },
+    { "reservistId": "r2", "endDate": "2033.12.31", "thisYear": 2026, "years": [
+      { "year": 2026, "label": "1년차", "kind": "동원", "count": 1 }, { "year": 2027, "label": "2년차", "kind": "동원", "count": 1 },
+      { "year": 2028, "label": "3년차", "kind": "동원", "count": 1 }, { "year": 2029, "label": "4년차", "kind": "동원", "count": 1 },
+      { "year": 2030, "label": "5년차", "kind": "기본", "count": 3 }, { "year": 2031, "label": "6년차", "kind": "기본", "count": 3 },
+      { "year": 2032, "label": "7년차", "kind": "점검", "count": 0 }, { "year": 2033, "label": "8년차", "kind": "점검", "count": 0 } ] },
+    { "reservistId": "r3", "endDate": "2029.12.31", "thisYear": 2026, "years": [
+      { "year": 2022, "label": "1년차", "kind": "동원", "count": 1 }, { "year": 2023, "label": "2년차", "kind": "동원", "count": 1 },
+      { "year": 2024, "label": "3년차", "kind": "동원", "count": 1 }, { "year": 2025, "label": "4년차", "kind": "동원", "count": 1 },
+      { "year": 2026, "label": "5년차", "kind": "기본", "count": 3 }, { "year": 2027, "label": "6년차", "kind": "기본", "count": 3 },
+      { "year": 2028, "label": "7년차", "kind": "점검", "count": 0 }, { "year": 2029, "label": "8년차", "kind": "점검", "count": 0 } ] },
+    { "reservistId": "r4", "endDate": "2031.12.31", "thisYear": 2026, "years": [
+      { "year": 2024, "label": "1년차", "kind": "동원", "count": 1 }, { "year": 2025, "label": "2년차", "kind": "동원", "count": 1 },
+      { "year": 2026, "label": "3년차", "kind": "동원", "count": 1 }, { "year": 2027, "label": "4년차", "kind": "동원", "count": 1 },
+      { "year": 2028, "label": "5년차", "kind": "기본", "count": 3 }, { "year": 2029, "label": "6년차", "kind": "기본", "count": 3 },
+      { "year": 2030, "label": "7년차", "kind": "점검", "count": 0 }, { "year": 2031, "label": "8년차", "kind": "점검", "count": 0 } ] },
+    { "reservistId": "r5", "endDate": "2030.12.31", "thisYear": 2026, "years": [
+      { "year": 2023, "label": "1년차", "kind": "동원", "count": 1 }, { "year": 2024, "label": "2년차", "kind": "동원", "count": 1 },
+      { "year": 2025, "label": "3년차", "kind": "동원", "count": 1 }, { "year": 2026, "label": "4년차", "kind": "동원", "count": 1 },
+      { "year": 2027, "label": "5년차", "kind": "기본", "count": 3 }, { "year": 2028, "label": "6년차", "kind": "기본", "count": 3 },
+      { "year": 2029, "label": "7년차", "kind": "점검", "count": 0 }, { "year": 2030, "label": "8년차", "kind": "점검", "count": 0 } ] }
+  ],
+  "health": [
+    { "id": "hq1", "text": "현재 치료나 관리가 필요한 만성질환이 있습니까?", "flagIfYes": true },
+    { "id": "hq2", "text": "최근 고열이나 호흡곤란 증상이 있었습니까?", "flagIfYes": true },
+    { "id": "hq3", "text": "현재 복용 중인 약이 있습니까?", "flagIfYes": true },
+    { "id": "hq4", "text": "운동 중 가슴 통증을 느끼거나 실신한 적이 있습니까?", "flagIfYes": true },
+    { "id": "hq5", "text": "혈압이 높거나 낮아 진료 또는 관리가 필요하다는 안내를 받은 적이 있습니까?", "flagIfYes": true },
+    { "id": "hq6", "text": "최근 일상생활이나 훈련 참여가 어려울 정도로 심한 피로감을 느꼈습니까?", "flagIfYes": true }
+  ],
+  "accounts": [
+    { "reservistId": "r1", "bank": "한빛은행", "number": "000-000000-0001", "holder": "최준서" },
+    { "reservistId": "r2", "bank": "별하은행", "number": "000-000000-0002", "holder": "권태규" },
+    { "reservistId": "r3", "bank": "온빛은행", "number": "000-000000-0003", "holder": "김민수" },
+    { "reservistId": "r4", "bank": "달솔은행", "number": "000-000000-0004", "holder": "김도현" },
+    { "reservistId": "r5", "bank": "새봄은행", "number": "000-000000-0005", "holder": "김민준" }
+  ],
+  "consents": [
+    { "id": "c1", "title": "개인정보 수집·이용", "required": true, "summary": "본인 확인과 훈련 안내를 위한 개인정보 수집·이용에 동의해요." },
+    { "id": "c2", "title": "훈련 참가 확인", "required": true, "summary": "본인이 훈련에 참가하며 출석 정보를 사실대로 입력하는 데 동의해요." },
+    { "id": "c3", "title": "훈련 알림 수신", "required": false, "summary": "훈련 일정과 입소 준비 안내를 알림으로 받아요. 동의하지 않아도 앱을 이용할 수 있어요." }
+  ],
+  "equipment": [
+    { "id": "eq1", "name": "전투조끼" },
+    { "id": "eq2", "name": "군장" },
+    { "id": "eq3", "name": "모포" },
+    { "id": "eq4", "name": "반합" },
+    { "id": "eq5", "name": "야전삽" }
+  ],
+  "firearm": { "weapon": "K-XX" },
+  "daySchedule": [
+    { "time": "08:30", "what": "입소 · 장비 수령" },
+    { "time": "09:00", "what": "안전교육 · 오전 훈련" },
+    { "time": "12:00", "what": "점심 식사" },
+    { "time": "13:00", "what": "오후 훈련" },
+    { "time": "17:00", "what": "장비 반납 · 퇴소" }
+  ],
+  "meal": { "time": "11:40–13:00", "menu": "제육볶음 · 된장국 · 계란찜" },
+  "px": { "place": "본관 1층", "hours": ["12:00–13:30", "16:00–17:00"] },
+  "history": [
+    { "reservistId": "r1", "year": 2025, "title": "1년차 동원미참훈련", "dateLabel": "11.03 (월)", "siteName": "금곡과학화예비군훈련장(1훈련장)", "status": "이수" },
+    { "reservistId": "r3", "year": 2022, "title": "1년차 동원훈련", "dateLabel": "11.08 (화)", "siteName": "단원 과학화예비군훈련장", "status": "이수" },
+    { "reservistId": "r3", "year": 2023, "title": "2년차 동원훈련", "dateLabel": "11.07 (화)", "siteName": "단원 과학화예비군훈련장", "status": "이수" },
+    { "reservistId": "r3", "year": 2024, "title": "3년차 동원훈련", "dateLabel": "11.12 (화)", "siteName": "단원 과학화예비군훈련장", "status": "이수" },
+    { "reservistId": "r3", "year": 2025, "title": "4년차 동원훈련", "dateLabel": "11.11 (화)", "siteName": "단원 과학화예비군훈련장", "status": "이수" },
+    { "reservistId": "r4", "year": 2024, "title": "1년차 동원미참훈련", "dateLabel": "11.18 (월)", "siteName": "부산과학화예비군훈련장(2훈련장)", "status": "이수" },
+    { "reservistId": "r4", "year": 2025, "title": "2년차 동원미참훈련", "dateLabel": "11.17 (월)", "siteName": "부산과학화예비군훈련장(2훈련장)", "status": "이수" },
+    { "reservistId": "r5", "year": 2023, "title": "1년차 동원미참훈련", "dateLabel": "11.06 (월)", "siteName": "유성구 예비군훈련장", "status": "이수" },
+    { "reservistId": "r5", "year": 2024, "title": "2년차 동원미참훈련", "dateLabel": "11.04 (월)", "siteName": "유성구 예비군훈련장", "status": "이수" },
+    { "reservistId": "r5", "year": 2025, "title": "3년차 동원미참훈련", "dateLabel": "11.10 (월)", "siteName": "유성구 예비군훈련장", "status": "이수" }
+  ],
+  "notices": [
+    { "id": "n1", "reservistId": "r1", "dateLabel": "10.20 (화)", "title": "훈련 일정을 안내해요", "body": "11월 16일부터 19일까지 금곡과학화예비군훈련장(1훈련장)에서 출퇴근 훈련을 진행해요. 매일 08:50까지 입소해요. 훈련 카드에는 첫날 날짜가 표시돼요.", "read": true },
+    { "id": "n2", "reservistId": "r1", "dateLabel": "11.09 (월)", "title": "입소패스 준비가 열렸어요", "body": "개인정보와 지급 계좌를 확인하고 건강 문진에 답변해요. 필수 동의를 마치면 입소패스를 준비할 수 있어요.", "read": false },
+    { "id": "n3", "reservistId": "r1", "dateLabel": "10.21 (수)", "title": "지난 훈련 이력을 확인해요", "body": "지난해 동원미참훈련 이수 내역이 등록돼 있어요. 훈련 이력에서 확인해요.", "read": true },
+    { "id": "n4", "reservistId": "r2", "dateLabel": "10.20 (화)", "title": "첫 동원훈련 일정을 안내해요", "body": "11월 10일부터 12일까지 별내 동원훈련장(55동원지원단)에서 숙영 훈련을 진행해요. 첫날 08:50까지 입소하고 마지막 날 17:00에 퇴소해요.", "read": true },
+    { "id": "n5", "reservistId": "r2", "dateLabel": "11.03 (화)", "title": "입소패스 준비가 열렸어요", "body": "건강 문진과 필수 동의를 완료해요. 숙영에 필요한 개인용품도 함께 준비해요.", "read": false },
+    { "id": "n6", "reservistId": "r3", "dateLabel": "10.20 (화)", "title": "기본훈련 일정을 안내해요", "body": "11월 12일 단원 과학화예비군훈련장에서 기본훈련을 진행해요. 08:50까지 입소하고 18:00에 종료해요.", "read": true },
+    { "id": "n7", "reservistId": "r3", "dateLabel": "11.05 (목)", "title": "입소패스 준비가 열렸어요", "body": "본인 정보와 지급 계좌를 확인해요. 건강 문진과 필수 동의를 마치면 준비가 완료돼요.", "read": false },
+    { "id": "n8", "reservistId": "r3", "dateLabel": "10.21 (수)", "title": "훈련 로드맵을 확인해요", "body": "5~6년차 횟수는 기본훈련 1회와 작계훈련 2회를 합산해요. 현재 카드에는 기본훈련 1건만 표시해요. 7~8년차 점검은 이수 내역 확인을 뜻해요.", "read": true },
+    { "id": "n9", "reservistId": "r4", "dateLabel": "11.16 (월)", "title": "훈련 일정이 변경됐어요", "body": "훈련 시작일이 11월 23일에서 12월 7일로 변경됐어요. 장소는 부산과학화예비군훈련장(2훈련장)으로 같아요.", "read": false },
+    { "id": "n10", "reservistId": "r4", "dateLabel": "11.17 (화)", "title": "변경된 출석일을 확인해요", "body": "12월 7일부터 10일까지 출퇴근 훈련을 진행해요. 매일 08:50까지 입소해요. 이전 날짜 대신 변경된 날짜를 확인해요.", "read": false },
+    { "id": "n11", "reservistId": "r4", "dateLabel": "11.30 (월)", "title": "새 일정의 입소패스를 준비해요", "body": "변경된 일정으로 입소패스 준비가 열렸어요. 저장된 정보를 확인하고 준비를 완료해요.", "read": false },
+    { "id": "n12", "reservistId": "r5", "dateLabel": "11.23 (월)", "title": "훈련 일정을 안내해요", "body": "12월 14일부터 17일까지 유성구 예비군훈련장에서 출퇴근 훈련을 진행해요. 매일 08:50까지 입소해요.", "read": true },
+    { "id": "n13", "reservistId": "r5", "dateLabel": "12.07 (월)", "title": "입소패스 준비가 열렸어요", "body": "개인정보와 지급 계좌를 확인해요. 건강 문진은 현재 상태에 맞게 답변해요.", "read": true },
+    { "id": "n14", "reservistId": "r5", "dateLabel": "12.08 (화)", "title": "건강 문진 확인이 필요해요", "body": "복용 중인 약이 있다고 답변해 담당자 확인이 필요해요. 문진 결과만으로 참가 여부가 결정되지는 않아요. 담당자 안내를 확인해요.", "read": false }
+  ],
+  "slots": [
+    { "id": "sl1", "reservistId": "r1", "dateLabel": "11.23 (월)", "seatsLeft": 12 },
+    { "id": "sl2", "reservistId": "r1", "dateLabel": "11.30 (월)", "seatsLeft": 4 },
+    { "id": "sl3", "reservistId": "r2", "dateLabel": "11.17 (화)", "seatsLeft": 6 },
+    { "id": "sl4", "reservistId": "r2", "dateLabel": "11.24 (화)", "seatsLeft": 2 },
+    { "id": "sl5", "reservistId": "r3", "dateLabel": "11.19 (목)", "seatsLeft": 15 },
+    { "id": "sl6", "reservistId": "r3", "dateLabel": "11.26 (목)", "seatsLeft": 0 },
+    { "id": "sl7", "reservistId": "r4", "dateLabel": "12.14 (월)", "seatsLeft": 8 },
+    { "id": "sl8", "reservistId": "r4", "dateLabel": "12.21 (월)", "seatsLeft": 3 },
+    { "id": "sl9", "reservistId": "r5", "dateLabel": "12.21 (월)", "seatsLeft": 5 },
+    { "id": "sl10", "reservistId": "r5", "dateLabel": "12.28 (월)", "seatsLeft": 1 }
+  ]
+}
